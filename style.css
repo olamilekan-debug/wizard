@@ -1,0 +1,117 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "space Grotesk";
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 20px 80px;
+    margin-bottom: 60px;
+
+}
+
+.links {
+    display: flex;
+    gap: 20px;   
+}
+
+.links a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.btn{
+    border: none;
+    padding: 10px 16px;
+    border-radius: 15px;
+    box-shadow: 10px 5px 10px 5px rgba(0, 0, 0, 0.174);
+    background-color:#141415;
+    color: #ffff;
+
+}
+
+.text-container{
+    display: flex;
+    padding: 20px 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text{
+    width: 550px;
+
+}
+
+.text h3{
+    color: rgb(60, 170, 60);
+    margin-bottom: 10px;
+    font-size: 14px;
+
+}
+
+.text h1{
+    font-size: 45px;
+    margin-bottom: 30px;
+    line-height: 1;
+}
+
+.text h1 span{
+    color:  rgb(60, 170, 60);
+
+}
+
+.text p{
+    color: #444;
+    margin-bottom: 15px
+}
+
+.book{
+    display: flex;
+    gap: 15px;
+}
+
+.black {
+    border: none;
+    padding: 10px 16px;
+    border-radius: 15px;
+    box-shadow: 10px 5px 10px 5px rgba(0, 0, 0, 0.174);
+    background-color:#141415;
+    color: #ffff;
+}
+
+.book a{
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.white {
+    border: none;
+    padding: 10px 16px;
+    border-radius: 15px;
+    box-shadow: 10px 5px 10px 5px rgba(0, 0, 0, 0.174);
+    background-color:#f7f7fa;
+    color: #141414;
+
+}
+
+.book a{
+    text-decoration: none;
+}
+
+.lara{
+    width: 500px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+
+.lara img{
+    width: 500px;
+}
